@@ -8,7 +8,11 @@
 </head>
 <body>
 	<jsp:include page="header.jsp"></jsp:include>
-	This is the Home page: ${name}.
+	<div id = "slotbooking">
+	<label>Get Your Slot :</label>
+	<div>
+	</div>  
+	</div>
 	<jsp:include page="footer.jsp"></jsp:include>
 </body>
 </html>
