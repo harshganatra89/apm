@@ -7,6 +7,8 @@
 <title>Welcome to ASM</title>
 </head>
 <body>
-	This is the Home page: ${name}
+	<jsp:include page="header.jsp"></jsp:include>
+	This is the Home page: ${name}.
+	<jsp:include page="footer.jsp"></jsp:include>
 </body>
 </html>
